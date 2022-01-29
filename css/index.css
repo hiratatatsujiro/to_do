@@ -1,0 +1,23 @@
+delbtn {
+  margin-left: 10px;
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.v-enter,.v-leave-to {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.v-enter-active,.v-leave-active {
+  position: absolute;
+  transition: all 1s;
+}
+
+.v-move {
+  transition: transform 1s;
+}
+
